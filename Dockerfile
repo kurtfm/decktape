@@ -33,7 +33,7 @@ RUN apk update && apk upgrade && \
     apk add --no-cache \
     ca-certificates \
     libstdc++ \
-    chromium=${CHROMIUM_VERSION} \
+    chromium \
     font-noto-emoji \
     freetype \
     harfbuzz \
